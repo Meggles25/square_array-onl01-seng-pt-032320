@@ -5,9 +5,9 @@
 
 def square_array(numbers)
   numbers = [1, 2, 3]
-  new_numbers = []
   numbers.each do |number| 
     new_numbers.push"#{number} ** number"
+    
   end
   new_numbers
 end
