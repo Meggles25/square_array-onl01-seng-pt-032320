@@ -7,7 +7,7 @@ def square_array(numbers)
   numbers = [1, 2, 3]
   numbers.each do |number| 
     new_numbers.push"#{number} ** number"
-    
+    new_numbers = []
   end
   new_numbers
 end
